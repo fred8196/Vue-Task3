@@ -73,7 +73,6 @@ Vue.createApp({
                         this.getProduct();
                     } else {
                         alert(res.data.message);
-                        productModal.hide();
                     }
                 }).catch(err => {
                     console.log(err);
